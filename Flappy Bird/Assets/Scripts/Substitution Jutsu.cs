@@ -34,6 +34,7 @@ public class SubstitutionJutsu : MonoBehaviour {
     {
         isDead = true;
         anim.SetTrigger ("Die");
+        GameControl.instance.BirdDied();
     }
 }
    
