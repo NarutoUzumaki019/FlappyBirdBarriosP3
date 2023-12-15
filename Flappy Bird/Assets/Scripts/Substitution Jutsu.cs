@@ -30,7 +30,7 @@ public class SubstitutionJutsu : MonoBehaviour {
             }
         }
     }
-    void OnColissionEnter2D ()
+    void OnCollisionEnter2D ()
     {
         isDead = true;
         anim.SetTrigger ("Die");
