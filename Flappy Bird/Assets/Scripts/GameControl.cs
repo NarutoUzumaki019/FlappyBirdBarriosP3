@@ -13,7 +13,7 @@ public class GameControl : MonoBehaviour {
     // Use this for initialization
     void Awake() 
     {
-        if (instance == null){
+        if (instance == null) {
              instance = this;
         } else if (instance != this)
         {
