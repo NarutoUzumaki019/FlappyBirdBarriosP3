@@ -25,7 +25,7 @@ public class SubstitutionJutsu : MonoBehaviour {
             if (Input.GetMouseButtonDown (0))
             {
                 rb2d.velocity = Vector2.zero;
-                rb2d.AddForce (new Vector2 (0, upforce));
+                rb2d.AddForce (new Vector2 (10, upforce));
                 anim.SetTrigger ("Flap");
             }
         }
