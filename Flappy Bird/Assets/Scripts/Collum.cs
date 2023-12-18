@@ -14,7 +14,7 @@ public class Collum : MonoBehaviour {
     private Vector2 objectPoolPosition = new Vector2(-15, -25f);
     private float timeSinceLastSpawned;
     private float spawnXPosition = 10f;
-    private int currentColumn = 0f;
+    private int currentColumn = (int)0f;
 
 
 
